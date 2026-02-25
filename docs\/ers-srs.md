@@ -38,10 +38,11 @@ O sistema deve:
 Permitir autenticação diferenciada (coordenador/professor/estudante).
 Registrar presença (estudante).
 Permitir upload e download de materiais (coordenador/professor/estudante).
-Aplicar avaliações online (professor/estudante).
-Gerar relatórios de desempenho (coordenador/professor/estudante).
-Disponibilizar glossário técnico bilíngue.
-Permitir envio de feedback individualizado.
+Aplicar avaliações online (professor).
+Gerar relatórios de desempenho (professor).
+Disponibilizar glossário técnico bilíngue (professor).
+Permitir envio de feedback individualizado (professor).
+Permitir envio de aviso e informes (coordenador).
 
 Requisitos Não Funcionais
 Interface intuitiva e minimalista.
