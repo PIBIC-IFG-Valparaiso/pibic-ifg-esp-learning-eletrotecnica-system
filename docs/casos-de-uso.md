@@ -17,7 +17,10 @@ Fluxo Alternativo:
 Arquivo inválido → mensagem de erro
 Pós-condição: Material disponível aos estudantes
 
-Caso de Uso 2 – Realizar Avaliação Online
+Caso de Uso 2 – Enviar Avaliação Online
+Ator: Professor
+
+Caso de Uso 3 – Realizar Avaliação Online
 Ator: Estudante
 Pré-condição: Avaliação disponível
 Fluxo Principal:
@@ -29,18 +32,26 @@ Fluxo Alternativo:
 Tempo expirado → submissão automática
 Pós-condição: Respostas registradas
 
-Caso de Uso 3 – Enviar Feedback Individual
-Atores: Professor
+Caso de Uso 4 – Enviar Feedback Individual
+Ator: Professor
 Fluxo Principal:
 Acessa desempenho do aluno
 Registra comentário
 Envia feedback
 Pós-condição: Estudante recebe notificação
 
-Caso de Uso 4 - Enviar avisos e informes
+Caso de Uso 5 – Enviar Atividade
+Ator: Professor
+
+Caso de Uso 6 – Realizar Atividade
+Ator: Estudante
+
+Caso de Uso 7 - Enviar avisos e informes
 Ator: Coordenador
 Fluxo Principal:
 Acessa o aviso/informe
+Identifica a turma
+Escreve o título
 Registra a mensagem
 Envia a mensagem
 Pós-condição: Professor e Estudante recebem a mensagem
@@ -72,7 +83,7 @@ Material (id, título, arquivo, data)
 Avaliação (id, tipo, data)
 Resposta (id, aluno_id, nota)
 Presença (aluno_id, data, status)
-Aviso/Infforme (turma-id, título, mensagem, data)
+Avisos/Informes (turma-id, título, mensagem, data)
 
 Integração com Projetos Integradores
 Projeto Integrador I

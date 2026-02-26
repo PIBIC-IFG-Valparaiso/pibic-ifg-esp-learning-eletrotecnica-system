@@ -21,7 +21,7 @@ Coordenador:
 Coordenador dos Projetos Integradores;
 Coordenador do Curso de Ensino Médio Técnico em Eletrotécnnica.
 
-Necessita gerenciar avisos, informes e feedback.
+Necessita gerenciar avisos e informes.
 Busca coordenar assuntos técnicos à língua inglesa e aos projetos integradores.
 
 Estudante:
@@ -36,13 +36,13 @@ Necessita interface simples e organizada.
 Requisitos Funcionais
 O sistema deve:
 Permitir autenticação diferenciada (coordenador/professor/estudante).
-Registrar presença (estudante).
+Registrar presença (professor).
 Permitir upload e download de materiais (coordenador/professor/estudante).
 Aplicar avaliações online (professor).
 Gerar relatórios de desempenho (professor).
 Disponibilizar glossário técnico bilíngue (professor).
 Permitir envio de feedback individualizado (professor).
-Permitir envio de aviso e informes (coordenador).
+Permitir envio de avisos e informes (coordenador).
 
 Requisitos Não Funcionais
 Interface intuitiva e minimalista.
